@@ -19,6 +19,7 @@ source "amazon-ebs" "example" {
   ami_users = [
      ""        # provide AWS account number
   ]
+  
 
   ami_regions = [
     "us-east-1",
